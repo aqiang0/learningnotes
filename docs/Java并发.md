@@ -16,7 +16,7 @@
 
 ###### **2.1 实际实现中线程的工作内存**
 
-![image-20201123102056393](https://github.com/aqiang0/learningnotes/master/docs/Java%E5%B9%B6%E5%8F%91.assets/image-20201123102056393.png)
+![image-20201123102056393](https://raw.github.com/aqiang0/aqiang0.github.io/learningnotes/master/docs/Java并发.assets/image-20201123102056393.png)
 
 当一个线程操作共享变量时，它首先从主存复制共享变量到自己的工作内存，然后对工作内存里变量进行处理，处理完后将变量值更新到主存。
 
